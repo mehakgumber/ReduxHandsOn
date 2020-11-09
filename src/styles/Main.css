@@ -1,0 +1,71 @@
+.logo-height{
+  height: 50px;
+}
+
+.img-jmbo{
+      background-image: url(../Images/intro-bg.png);
+    }
+
+.banner-icons-margin{
+    margin-left: 10px;
+}    
+
+hr.hr-line{
+  border-top: 3px solid #0d9ada;
+  width: 100px;
+  
+  }
+
+  .btn-grey{
+    background : #f7efef;
+  }
+
+  .btn-add{
+    color: white;
+    float: right;
+  }
+
+
+  .shopping-card{ width: 18rem;
+    margin:10px;
+}
+
+.btn-add-Product{
+    padding: 10px;
+    border: 2px solid #9bb9d8;
+    margin: 10px;
+    color: #9bb9d8;
+    text-align: center;
+}
+
+.selectedProduct{
+    border: 2px solid #a3a3ef;
+}
+
+#modal-root {
+    position: relative;
+    z-index: 999;
+  }
+  
+  .app {
+    height: 10em;
+    width: 10em;
+    background: lightblue;
+    overflow: hidden;
+  }
+  
+  .modal {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-content{
+    width: 150%;
+  }
